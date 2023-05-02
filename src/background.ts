@@ -27,3 +27,5 @@ chrome.runtime.onInstalled.addListener(function() {
 chrome.contextMenus.onClicked.addListener(function(item){
     console.log("メニューがクリックされたよ (menuItemId=" + item.menuItemId + ")");
 });
+
+export {}
